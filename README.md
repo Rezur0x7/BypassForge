@@ -1,5 +1,5 @@
 # BypassForge
-Generate Payloads utilizing Process Injection techniques for Living-off-the-Land Applocker Bypass Executables like InstallUtil and RegAsm/Regsvcs in Windows. Currently only two LOL Binaries are supported (InstallUtil & RegAsm/Regsvcs) along with one Process Injection technique (PE Injection). Later on, other techniques and binaries will be added to the tool.
+Generate Payloads utilizing Process Injection techniques for Living-off-the-Land Applocker Bypass Executables like InstallUtil and RegAsm/Regsvcs in Windows. Currently only two LOL Binaries are supported (InstallUtil & RegAsm/Regsvcs) for which the shellcode is loaded in the generated PE's memory. Later on, other Process Injection technique and binaries will be added to the tool.
 
 # Example Usage
 The script can be used in two modes:

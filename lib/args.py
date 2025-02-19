@@ -26,7 +26,7 @@ parser.add_argument('--listen-host', '-lh', required=False, metavar='127.0.0.1',
 parser.add_argument('--listen-port', '-lp', required=False, metavar='8080',dest='lp',help='The listening port for MSFVenom payload')
 parser.add_argument('--payload', required=False, metavar='windows/x64/meterpreter/reverse_tcp', dest='payload',help='The MSF payload to be used')
 parser.add_argument('--arch', required=False, dest='arch', choices=['x86', 'x64'], default='x64', help='Specify the architecture (important for .dll payloads), default: x64')
-parser.add_argument('--technique', '-t', required=False, dest='injection_technique', default='PE-Injection', choices=['PE-Injection'], help='Specify the Injection Technique (only PE-Injection present at the moment, more to be added), default: PE-Injection')
+parser.add_argument('--technique', '-t', required=False, dest='injection_technique', default='Shellcode-Loader', choices=['Shellcode-Loader'], help='Specify the Injection Technique (only local Shellcode-Loader present at the moment, more injection techniques to be added), default: Shellcode-Loader')
 
 args = parser.parse_args()
 

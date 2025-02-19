@@ -1,6 +1,6 @@
 injection_techniques:
-  pe-injection:
-    title: "PE Injection"
+  shellcode-loader:
+    title: "Shellcode Loader"
     pinvoke_imports: |
         [DllImport("kernel32")]
         private static extern IntPtr VirtualAlloc(IntPtr lpStartAddr, UInt32 size, UInt32 flAllocationType, UInt32 flProtect);
